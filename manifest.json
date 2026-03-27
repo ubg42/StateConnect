@@ -18,13 +18,13 @@
   "orientation": "any",
   "screenshots": [
     {
-      "src": "_assets_/screenshots/1920x1080.png",
+      "src": "./_assets_/screenshots/1920x1080.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "platform": "wide"
     },
     {
-      "src": "_assets_/screenshots/1080x1920.png",
+      "src": "./_assets_/screenshots/1080x1920.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "platform": "narrow"
@@ -32,17 +32,17 @@
   ],
   "icons": [
     {
-      "src": "_assets_/icons/192x192.png",
+      "src": "./icons/192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "_assets_/icons/512x512.png",
+      "src": "./icons/512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "_assets_/icons/1920x1080.png",
+      "src": "./icons/1920x1080.png",
       "sizes": "1920x1080",
       "type": "image/png"
     }

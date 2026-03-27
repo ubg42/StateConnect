@@ -1,0 +1,71 @@
+{
+  "gameIdOnPortal": "9NLB4HPXNMQ8",
+  "toolGameId": "pUUYAku6zxYTjVBj2CxM",
+  "gameId": "state-connect",
+  "name": "State Connect",
+  "version": "1.0.0",
+  "exportedAt": "2025-09-16T15:18:47.133Z",
+  "features": {
+    "audio": true,
+    "copyright": true,
+    "credits": true,
+    "pause": true,
+    "progress": true,
+    "score": true,
+    "tutorial": true,
+    "version": true,
+    "visibilitychange": true,
+    "iap": true,
+    "home": true,
+    "privacy": true
+  },
+  "ads": {
+    "initial": {
+      "retry": 2000,
+      "timeout": 250,
+      "preload": 250,
+      "enabled": false
+    },
+    "interstitial": {
+      "preload": 250,
+      "retry": 2000,
+      "timeout": 250,
+      "cooldown": 180000,
+      "enabled": true,
+      "placement": "breaks",
+      "eventIds": [
+        "break:gameplay"
+      ]
+    },
+    "rewarded": {
+      "retry": 2000,
+      "timeout": 250,
+      "enabled": true,
+      "preload": 500,
+      "eventIds": [
+        "button:boosterforad",
+        "button:moneyforad",
+        "button:offlineincomemultiply",
+        "button:adeventrewardedchoice",
+        "button:crystalsforad",
+        "button:cityupgrade",
+        "button:skipdailyrewardtime",
+        "button:claimallafteradrewards",
+        "button:upgrade",
+        "button:upgrade:speed",
+        "button:upgrade:income",
+        "button:upgrade:exp"
+      ]
+    },
+    "banner": {
+      "retry": 2000,
+      "timeout": 250,
+      "enabled": false,
+      "preload": 250
+    }
+  },
+  "storage": {
+    "shouldCompress": true
+  },
+  "microsoftStart": {}
+}
